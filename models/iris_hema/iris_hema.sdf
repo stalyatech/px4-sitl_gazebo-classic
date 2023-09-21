@@ -7,11 +7,11 @@
     </include>
 
     <include>
-      <uri>model://fpv_cam</uri>
+      <uri>model://hema_cam</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
-    <joint name="fpv_cam_joint" type="fixed">
-      <child>fpv_cam::link</child>
+    <joint name="hema_cam_joint" type="fixed">
+      <child>hema_cam::link</child>
       <parent>iris::base_link</parent>
       <axis>
         <xyz>0 0 1</xyz>
