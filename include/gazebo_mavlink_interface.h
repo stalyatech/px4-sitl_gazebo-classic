@@ -76,7 +76,7 @@
 
 //! Default distance sensor model joint naming
 static const std::regex kDefaultLidarModelNaming(".*(lidar|sf10a)(.*)");
-static const std::regex kDefaultSonarModelNaming(".*(sonar|mb1240-xl-ez4)(.*)");
+static const std::regex kDefaultSonarModelNaming(".*(sonar|radar|nra15|mr72|mb1240-xl-ez4)(.*)");
 static const std::regex kDefaultGPSModelNaming(".*(gps|ublox-neo-7M)(.*)");
 static const std::regex kDefaultAirspeedModelJointNaming(".*(airspeed)(.*_joint)");
 

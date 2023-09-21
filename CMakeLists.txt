@@ -363,6 +363,7 @@ add_library(gazebo_opticalflow_mockup_plugin SHARED src/gazebo_opticalflow_mocku
 add_library(gazebo_opticalflow_plugin SHARED src/gazebo_opticalflow_plugin.cpp)
 add_library(gazebo_aruco_plugin SHARED src/gazebo_aruco_plugin.cpp)
 add_library(gazebo_sonar_plugin SHARED src/gazebo_sonar_plugin.cpp)
+add_library(gazebo_radar_plugin SHARED src/gazebo_radar_plugin.cpp)
 add_library(gazebo_uuv_plugin SHARED src/gazebo_uuv_plugin.cpp)
 add_library(gazebo_vision_plugin SHARED src/gazebo_vision_plugin.cpp)
 add_library(gazebo_controller_interface SHARED src/gazebo_controller_interface.cpp)
@@ -393,6 +394,7 @@ set(plugins
   gazebo_opticalflow_plugin
   gazebo_aruco_plugin
   gazebo_sonar_plugin
+  gazebo_radar_plugin
   gazebo_uuv_plugin
   gazebo_vision_plugin
   gazebo_controller_interface
@@ -482,7 +484,7 @@ set(plugins
 
   add_library(ForceVisual SHARED src/force_visual/force_visual.cpp)
   list(APPEND plugins ForceVisual)
-  
+
   add_library(AdvancedLiftDragPlugin SHARED src/liftdrag_plugin/advanced_liftdrag_plugin.cpp)
   list(APPEND plugins LiftDragPlugin)
 #endif()

@@ -65,30 +65,11 @@
           <always_on>1</always_on>
           <update_rate>30</update_rate>
           <visualize>1</visualize>
-          <plugin name='camera_plugin' filename='libgazebo_ros_camera.so'>
-              <robotNamespace></robotNamespace>
-            <alwaysOn>true</alwaysOn>
-            <imageTopicName>image_raw</imageTopicName>
-            <cameraInfoTopicName>camera_info</cameraInfoTopicName>
-            <updateRate>30.0</updateRate>
-            <cameraName>usb_cam</cameraName>
-            <frameName>/robot_camera_link</frameName>
-            <CxPrime>320.5</CxPrime>
-            <Cx>320.5</Cx>
-            <Cy>240.5</Cy>
-            <hackBaseline>0</hackBaseline>
-            <focalLength>277.191356</focalLength>
-            <distortionK1>0.0</distortionK1>
-            <distortionK2>0.0</distortionK2>
-            <distortionK3>0.0</distortionK3>
-            <distortionT1>0.0</distortionT1>
-            <distortionT2>0.0</distortionT2>
-          </plugin>
           <!-- GStreamer camera plugin (needs a lot of CPU! Consider lowering the
              camera image size) -->
           <plugin name="GstCameraPlugin" filename="libgazebo_gst_camera_plugin.so">
             <robotNamespace></robotNamespace>
-			      <udpHost>192.168.253.1</udpHost>
+			<udpHost>192.168.253.1</udpHost>
             <udpPort>5600</udpPort>
           </plugin>
         </sensor>

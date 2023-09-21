@@ -27,14 +27,14 @@
           </script>
         </material>
       </visual>
-      <sensor name="mr72" type="sonar">
+      <sensor name="sonar" type="sonar">
         <pose>0 0 0 0 1.57 0</pose>
         <sonar>
           <min>0.02</min>
           <max>10.0</max>
-          <radius>4.663076582</radius>
+          <radius>1.0</radius>
         </sonar>
-        <plugin name="SonarPlugin" filename="libgazebo_sonar_plugin.so">
+        <plugin name="RadarPlugin" filename="libgazebo_radar_plugin.so">
           <robotNamespace></robotNamespace>
         </plugin>
         <always_on>1</always_on>
