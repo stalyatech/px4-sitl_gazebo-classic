@@ -1,5 +1,5 @@
 <?xml version='1.0'?>
-<sdf version='1.5'>
+<sdf version='1.6'>
   <model name='iris_hema'>
 
     <include>
@@ -7,11 +7,11 @@
     </include>
 
     <include>
-      <uri>model://hema_cam</uri>
+      <uri>model://fpv_cam2</uri>
       <pose>0 0 0 0 0 0</pose>
     </include>
-    <joint name="hema_cam_joint" type="fixed">
-      <child>hema_cam::link</child>
+    <joint name="fpv_cam2_joint" type="fixed">
+      <child>fpv_cam2::link</child>
       <parent>iris::base_link</parent>
       <axis>
         <xyz>0 0 1</xyz>
@@ -36,6 +36,17 @@
           <lower>0</lower>
         </limit>
       </axis>
+    </joint>
+
+    <!--second GPS-->
+    <include>
+      <uri>model://gps</uri>
+      <pose>-0.1 0 0 0 0 0</pose>
+      <name>gps1</name>
+    </include>
+    <joint name='gps1_joint' type='fixed'>
+      <child>gps1::link</child>
+      <parent>iris::base_link</parent>
     </joint>
 
   </model>
