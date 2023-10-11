@@ -1,18 +1,18 @@
 <?xml version="1.0" ?>
 <sdf version="1.4">
-  <model name="mr72">
+  <model name="radar">
     <link name="link">
       <pose>0 0 0 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.090</mass>
         <inertia>
-          <ixx>0.00001</ixx>
+          <ixx>0.000102</ixx>
           <ixy>0</ixy>
           <ixz>0</ixz>
-          <iyy>0.00001</iyy>
+          <iyy>3.00000014e-05</iyy>
           <iyz>0</iyz>
-          <izz>0.00001</izz>
+          <izz>7.80000025e-05</izz>
         </inertia>
       </inertial>
       <visual name="visual">
