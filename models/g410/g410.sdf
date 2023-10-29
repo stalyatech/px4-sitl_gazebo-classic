@@ -4,16 +4,16 @@
 
     <link name='base_link'>
       <inertial>
-        <mass>19.1</mass>
+        <mass>23</mass>
+        <pose>0.0934176  0  0.32542401 0 0 0</pose>
         <inertia>
-          <ixx>1.84511332</ixx>
-          <ixy>-0.00521193</ixy>
-          <ixz>-0.84426135</ixz>
-          <iyy>1.18463390</iyy>
-          <iyz>-0.00981659</iyz>
-          <izz>1.61567665</izz>
+          <ixx>1.77598952</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>1.17098117</iyy>
+          <iyz>0</iyz>
+          <izz>1.62454377</izz>
         </inertia>
-        <pose>0 0 0.371 0 0 0</pose>
       </inertial>
       <pose>0 0 0 0 0 0</pose>
       <gravity>1</gravity>
@@ -22,7 +22,7 @@
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://g410/meshes/g410_body.stl</uri>
+            <uri>model://g410/meshes/main_body.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -98,25 +98,25 @@
 
     <link name='rotor_0'>
       <inertial>
-        <mass>1.035</mass>
+        <mass>0.225</mass>
         <inertia>
-          <ixx>5.58708471e-04</ixx>
-          <ixy>-7.04382971e-04</ixy>
-          <ixz>6.03020325e-10</ixz>
-          <iyy>1.94930801e-02</iyy>
-          <iyz>-4.90283808e-09</iyz>
-          <izz>1.98051009e-02</izz>
+          <ixx>8.22508541e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>8.73471044e-03</iyy>
+          <iyz>0</iyz>
+          <izz>8.80548482e-03</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
-      <pose>0.442125 -0.726983 0.532052 0 0 0</pose>
+      <pose>0.413339 -0.614978 0.494498 0 0 0</pose>
       <gravity>1</gravity>
 	  <velocity_decay/>
       <visual name='rotor_0_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://g410/meshes/g410_prop_ccw.stl</uri>
+            <uri>model://g410/meshes/prop_ccw.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -193,25 +193,25 @@
 
     <link name='rotor_1'>
       <inertial>
-        <mass>1.035</mass>
+        <mass>0.225</mass>
         <inertia>
-          <ixx>5.58708471e-04</ixx>
-          <ixy>-7.04382971e-04</ixy>
-          <ixz>6.03020325e-10</ixz>
-          <iyy>1.94930801e-02</iyy>
-          <iyz>-4.90283808e-09</iyz>
-          <izz>1.98051009e-02</izz>
+          <ixx>8.22508541e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>8.73471044e-03</iyy>
+          <iyz>0</iyz>
+          <izz>8.80548482e-03</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
-      <pose>-0.442125 0.726983 0.532052 0 0 0</pose>
+      <pose>-0.405854 0.618872 0.494498 0 0 0</pose>
       <gravity>1</gravity>
 	  <velocity_decay/>
       <visual name='rotor_1_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://g410/meshes/g410_prop_ccw.stl</uri>
+            <uri>model://g410/meshes/prop_ccw.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -288,25 +288,25 @@
 
     <link name='rotor_2'>
       <inertial>
-        <mass>1.035</mass>
+        <mass>0.225</mass>
         <inertia>
-          <ixx>5.58708471e-04</ixx>
-          <ixy>-7.04382971e-04</ixy>
-          <ixz>6.03020325e-10</ixz>
-          <iyy>1.94930801e-02</iyy>
-          <iyz>-4.90283808e-09</iyz>
-          <izz>1.98051009e-02</izz>
+          <ixx>8.22508541e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>8.73471044e-03</iyy>
+          <iyz>0</iyz>
+          <izz>8.80548482e-03</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
-      <pose>0.442125 0.726983 0.532052 0 0 0</pose>
+      <pose>0.413339 0.614978 0.494498 0 0 0</pose>
       <gravity>1</gravity>
 	  <velocity_decay/>
       <visual name='rotor_2_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://g410/meshes/g410_prop_cw.stl</uri>
+            <uri>model://g410/meshes/prop_cw.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -383,25 +383,25 @@
 
     <link name='rotor_3'>
       <inertial>
-        <mass>1.035</mass>
+        <mass>0.225</mass>
         <inertia>
-          <ixx>5.58708471e-04</ixx>
-          <ixy>-7.04382971e-04</ixy>
-          <ixz>6.03020325e-10</ixz>
-          <iyy>1.94930801e-02</iyy>
-          <iyz>-4.90283808e-09</iyz>
-          <izz>1.98051009e-02</izz>
+          <ixx>8.22508541e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>8.73471044e-03</iyy>
+          <iyz>0</iyz>
+          <izz>8.80548482e-03</izz>
         </inertia>
         <pose>0 0 0 0 0 0</pose>
       </inertial>
-      <pose>-0.442125 -0.726983 0.532052 0 0 0</pose>
+      <pose>-0.405854 -0.618872 0.494498 0 0 0</pose>
       <gravity>1</gravity>
 	  <velocity_decay/>
       <visual name='rotor_3_visual'>
         <pose>0 0 0 0 0 0</pose>
         <geometry>
           <mesh>
-            <uri>model://g410/meshes/g410_prop_cw.stl</uri>
+            <uri>model://g410/meshes/prop_cw.stl</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
@@ -609,7 +609,7 @@
     </joint>
 
     <link name='g410/imu_link'>
-      <pose>0.20 0 0.495 0 0 0</pose>
+      <pose>0.18 0 0.43 0 0 0</pose>
       <inertial>
         <pose>0 0 0 0 0 0</pose>
         <mass>0.015</mass>
@@ -660,7 +660,7 @@
 
     <include>
       <uri>model://zed</uri>
-      <pose>-0.246 -0.123 0.543 0 0 0</pose>
+      <pose>-0.212 -0.107 0.461 0 0 0</pose>
       <name>gps0</name>
     </include>
     <joint name='gps0_joint' type='fixed'>
@@ -670,7 +670,7 @@
 
     <include>
       <uri>model://stalya_cam</uri>
-      <pose>0.30 0 0.46 0 0 0</pose>
+      <pose>0.25 0 0.40 0 0 0</pose>
     </include>
     <joint name="stalya_cam_joint" type="fixed">
       <child>stalya_cam::link</child>
@@ -686,7 +686,7 @@
 
     <include>
       <uri>model://radar</uri>
-      <pose>0.335 0 0.40 0 0 3.141592</pose>
+      <pose>0.29 0 0.33 0 0 3.141592</pose>
     </include>
     <joint name="radar_joint" type="revolute">
       <child>radar::link</child>
@@ -714,11 +714,11 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>450</maxRotVelocity>
-      <motorConstant>0.00073950</motorConstant>
-      <momentConstant>0.09549297</momentConstant>
+      <motorConstant>0.00072588</motorConstant>
+      <momentConstant>0.095492966</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>0</motorNumber>
-      <rotorDragCoefficient>0.07191390</rotorDragCoefficient>
+      <rotorDragCoefficient>0.023799174</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/0</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>5</rotorVelocitySlowdownSim>
@@ -732,11 +732,11 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>450</maxRotVelocity>
-      <motorConstant>0.00073950</motorConstant>
-      <momentConstant>0.09549297</momentConstant>
+      <motorConstant>0.00072588</motorConstant>
+      <momentConstant>0.095492966</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>1</motorNumber>
-      <rotorDragCoefficient>0.07191390</rotorDragCoefficient>
+      <rotorDragCoefficient>0.023799174</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/1</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>5</rotorVelocitySlowdownSim>
@@ -750,11 +750,11 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>450</maxRotVelocity>
-      <motorConstant>0.00073950</motorConstant>
-      <momentConstant>0.09549297</momentConstant>
+      <motorConstant>0.00072588</motorConstant>
+      <momentConstant>0.095492966</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>2</motorNumber>
-      <rotorDragCoefficient>0.07191390</rotorDragCoefficient>
+      <rotorDragCoefficient>0.023799174</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/2</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>5</rotorVelocitySlowdownSim>
@@ -768,11 +768,11 @@
       <timeConstantUp>0.0125</timeConstantUp>
       <timeConstantDown>0.025</timeConstantDown>
       <maxRotVelocity>450</maxRotVelocity>
-      <motorConstant>0.00073950</motorConstant>
-      <momentConstant>0.09549297</momentConstant>
+      <motorConstant>0.00072588</motorConstant>
+      <momentConstant>0.095492966</momentConstant>
       <commandSubTopic>/gazebo/command/motor_speed</commandSubTopic>
       <motorNumber>3</motorNumber>
-      <rotorDragCoefficient>0.07191390</rotorDragCoefficient>
+      <rotorDragCoefficient>0.023799174</rotorDragCoefficient>
       <rollingMomentCoefficient>1e-06</rollingMomentCoefficient>
       <motorSpeedPubTopic>/motor_speed/3</motorSpeedPubTopic>
       <rotorVelocitySlowdownSim>5</rotorVelocitySlowdownSim>
